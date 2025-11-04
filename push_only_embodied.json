@@ -1,0 +1,11 @@
+{
+    "agent_pos": [[2, 0], [0, 1]],
+    "box_pos": [[2, 2], [3, 0], [1, 1], [1, 2]],
+    "trap_pos": [[0, 0]],
+    "goal_pos": [[4, 3]],
+    "wall_pos": [[0, 0], [1, 0]],
+    "helper_pos": [[2, 1]],
+    "key_pos": [[4, 1]],
+    "title": "Push Adjacent",
+    "training_command": "python3 train.py --grid_height 5 --grid_width 4 --num_boxes 4 --num_traps 1 --num_goals 1 --num_walls 2 --max_steps 50 --num_agents 2 --num_keys 1 --env_mode independent --helper_objective ave --helper_objective monte_carlo_emp --helper_objective random --helper_objective no_op --helper_objective discrete_choice --helper_objective entropic_choice --specific_positions_file push_only_embodied.json --epochs 250 --no_freeze --no_pull"
+    }

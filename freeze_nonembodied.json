@@ -1,0 +1,9 @@
+{
+    "agent_pos": [[5, 2], [4, 0]],
+    "box_pos": [[4, 2]],
+    "trap_pos": [[0, 0]],
+    "goal_pos": [[1, 1], [1, 2]],
+    "wall_pos": [[0, 0], [0, 1], [2, 1], [3, 1], [4, 1], [5, 0], [5, 1]],
+    "title": "Move Any and Freeze",
+    "training_command": "python3 train_nonembodied.py --grid_height 6 --grid_width 3 --num_boxes 1 --num_traps 1 --num_goals 2 --num_walls 7 --max_steps 50 --num_agents 2 --env_mode independent --helper_objective ave --helper_objective monte_carlo_emp --helper_objective random --helper_objective no_op --helper_objective discrete_choice --helper_objective entropic_choice --specific_positions_file freeze_nonembodied.json --epochs 250 --boxes_can_cover_goal"
+  }

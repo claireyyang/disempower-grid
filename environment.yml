@@ -1,0 +1,30 @@
+name: multiagent_empowerment
+channels:
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.10.15
+  - scipy=1.10.1
+  - pip=24.0
+  - numpy=1.24.4
+  - matplotlib=3.5.3
+  - dm-haiku=0.0.12
+  - tqdm=4.66.2
+  - wandb=0.16.5
+  - cudnn
+  - cudatoolkit
+  - cuda-nvcc
+  - pip:
+    - jax[cuda12_pip]==0.4.28
+    - simple-pytree==0.2.2
+    - distrax==0.1.5
+    - gym==0.26.2
+    - gymnax==0.0.8
+    - jaxmarl==0.0.2
+    - click==8.1.7
+    - flax==0.10.2
+    - chex
+    - absl-py
+    - plotly==6.0.1
+    - benchmark-mi==0.1.3
+    - -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
