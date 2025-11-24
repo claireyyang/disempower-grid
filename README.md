@@ -81,8 +81,13 @@ To use the evals, move the CSV files from the training runs you are interested i
 
 In the paper, evaluations are also visualized as a line graph, which you can create using your favorite plotting library and the data in the CSVs. 
 
-## Citation
+## BibTeX Citation
 ```
-Will include once it's up on ArXiv ;)
+@article{yang2025empowerment,
+  title={When Empowerment Disempowers},
+  author={Yang, Claire and Cakmak, Maya and Kleiman-Weiner, Max},
+  journal={arXiv preprint arXiv:2511.04177},
+  year={2025}
+}
 ```
 
